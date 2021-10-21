@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    h1 {
+        @apply font-bold;
+        @apply text-2xl;
+        color: #3A4374;
+    }
+    h2 {
+        @apply font-bold;
+        @apply text-xl;
+        color: #3A4374;
+    }
+    h3 {
+        @apply font-bold;
+        @apply text-lg;
+        color: #3A4374;
+    }
+    h4 {
+        @apply font-bold;
+        @apply text-sm;
+        color: #3A4374;
+    }
+
+    p {
+        @apply text-base;
+        @apply text-primary;
+        @apply font-normal;
+    }
+}
